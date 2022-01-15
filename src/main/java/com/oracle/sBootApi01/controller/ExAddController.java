@@ -9,7 +9,7 @@ public class ExAddController {
 	@RequestMapping(value = "Ex.do")
 	public int ExAdd() {
 		
-		int result = 1;
+		int result = 2;
 		
 		return result;
 	}
