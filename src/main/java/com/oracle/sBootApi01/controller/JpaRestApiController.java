@@ -37,7 +37,7 @@ public class JpaRestApiController {
 	// Good API - 필요한 데이터만 선택해서 보내주기
 	@GetMapping("/restApi/v2/members")
 	public Result membersV2(){
-		System.out.println("JpaRestApiController의 /restApi/v2/members 시작되었습니다.");
+		System.out.println("JpaRestApiController의 /restApi/v2/members 시작되었습니다123.");
 		List<Member> findMembers = memberService.getListAllMember(); 
 		
 										//  자바 8에서 추가한 스트림(Streams)은 람다를 활용할 수 있는 기술 중 하나
@@ -69,6 +69,7 @@ public class JpaRestApiController {
 //		public MemberRtnDto(String name) {
 //			this.name=name;
 //		}
+	
 	}
 	
 	@Data	
